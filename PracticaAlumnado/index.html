@@ -1,0 +1,30 @@
+
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Registro Alumnado</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    
+    <form method="post" action="registro.php">
+        <label>Nombre:</label>
+        <input type="text" name="nombre" required><br>
+        <label>Apellidos:</label>
+        <input type="text" name="apellido" required><br>
+        <label>Fecha de Nacimiento:</label>
+        <input type="date" name="fechaNacimiento" required><br>
+        <label>Curso:</label>
+        <input type="text" name="curso" required><br>
+        <label>Email:</label>
+        <input type="email" name="email" required><br>  
+        <label>Contraseña:</label>
+        <input type="password" name="contraseña" required><br>
+        <input type="submit" value="Registrar">
+
+       <br><a href="lista.php">Ver alumnado matriculado</a>
+    </form>
+    
+</body>
+</html>

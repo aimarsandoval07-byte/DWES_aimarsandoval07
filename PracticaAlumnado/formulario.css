@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    padding: 2rem;
+}
+
+form {
+    max-width: 500px;
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+input {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+input[type="submit"] {
+    width: auto;
+    margin-top: 1.5rem;
+    padding: 0.6rem 1.2rem;
+    background-color: #457b9d;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+a {
+    color: #457b9d;
+}
